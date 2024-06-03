@@ -50,5 +50,4 @@ Este proyecto es una tienda de indumentaria que permite a los usuarios navegar p
 ### Gestión de Productos
   El backend incluye rutas para crear, leer, actualizar y eliminar productos. Solo los usuarios autenticados pueden acceder a estas rutas.
 
-## licencia
- Este proyecto está bajo la licencia MIT. Consulta el archivo LICENSE para más detalles.
+
