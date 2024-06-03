@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tienda de Indumentaria</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Indumentaria</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="contact.html">Contacto</a>
+            <a href="login.html">Iniciar Sesión</a>
+            <a href="register.html">Registrarse</a>
+        </nav>
+    </header>
+    <main>
+        <section class="products">
+            <h2>Productos</h2>
+            <div id="product-list"></div>
+        </section>
+        <section class="cart">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items"></ul>
+            <p>Total: $<span id="total-price">0</span></p>
+            <button id="checkout">Finalizar Compra</button>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
